@@ -1,0 +1,32 @@
+nav {
+    padding: 0;
+}
+
+.footer {
+    padding: 10px;
+    border-top: 2px solid rgba(186, 182, 182, 0.377);
+    width: 100%;
+    display: inline-flex;
+    background-color: #80808029;
+}
+
+i {
+    padding-right: 5px;
+    color: #d52443c2;
+}
+
+a {
+    color: #d52443c2;;
+}
+
+@media (max-width: 576px) {
+    .footer {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #p-mob {
+        text-align: center !important;
+    }
+}

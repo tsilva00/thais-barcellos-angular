@@ -1,0 +1,93 @@
+/*Config gerais navbar*/
+.navbar-expand-lg {
+    padding: 10px 30px;
+    background-color: transparent !important;
+    position: fixed;
+    width: 100%;
+}
+
+/*Config Links*/
+.navbar-expand-lg .navbar-collapse {
+    justify-content: flex-end;
+}
+
+.navbar-expand-lg .navbar-collapse.show {
+    display: flex !important;
+    flex-basis: auto;
+    background: whitesmoke;
+    border-radius: 10px;
+    margin: auto;
+    text-align: center;
+
+}
+
+.navbar-nav a:hover {
+    background-color: white;
+}
+
+a.nav-item.nav-link {
+    font-family: 'Oswald', sans-serif;
+}
+
+.navbar-nav a:active,
+.navbar-nav a:focus {
+    background-color: black;
+    color: white;
+}
+
+
+/*Config LOGO*/
+a.navbar-brand {
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.top {
+    background-color: white !important;
+}
+
+.bottom {
+    background-color: transparent !important;
+    transition: 0.35s ease-in-out;
+}
+
+.navbar-desk {
+    display: block;
+}
+
+.navbar-expand-lg {
+    padding: 10px 30px;
+    background-color: transparent !important;
+    position: fixed;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.navbar-expand-lg .navbar-collapse.show {
+    display: none !important;
+}
+
+@media (max-width: 991px) {
+    .navbar-desk {
+        display: none;
+    }
+
+    .navbar-expand-lg .navbar-collapse.show {
+        justify-content: center;
+        display: block !important;
+    }
+
+    .navbar-expand-lg {
+        padding: 10px 30px;
+        background-color: white !important;
+        position: fixed;
+        width: 100%;
+        display: block;
+    }
+
+    button.navbar-toggler {
+        float: right;
+        right: 0 !important;
+    }
+}

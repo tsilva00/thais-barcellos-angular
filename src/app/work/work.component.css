@@ -1,0 +1,66 @@
+/*loading*/
+.loading {
+    height: 100%;
+    position: fixed;
+    background: #ffffffa1;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+
+/*Title*/
+section {
+    height: 280px;
+    background-size: cover;
+    display: grid;
+    background-image: url("../../assets/background.jpg");
+}
+
+.banner {
+    display: grid;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.banner h1 {
+    padding-bottom: .3cm;
+    border-bottom: 8px solid #d52443;
+}
+
+#sec {
+    background: #bbbbbb26;
+    width: 100%;
+}
+
+/*FIM*/
+
+@media (max-width: 576px) {
+    section {
+        height: 150px;
+    }
+}
+
+.container.main h3 {
+    margin-top: 1cm;
+    font-size: 18px;
+    margin-bottom: .5cm;
+}
+
+.container.main {
+    align-items: center;
+    margin: auto;
+    padding-bottom: 30px;
+}
+
+.container.main ul {
+    margin-top: .5cm;
+}
+
+.container.main div {
+    width: 480px;
+    margin: auto;
+    padding-left: 80px;
+}

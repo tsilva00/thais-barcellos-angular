@@ -1,0 +1,92 @@
+/*loading*/
+.loading {
+    height: 100%;
+    position: fixed;
+    background: #ffffffa1;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+/*Title*/
+section {
+    height: 280px;
+    background-size: cover;
+    display: grid;
+    background-image: url("../../assets/background.jpg");
+}
+
+.banner {
+    display: grid;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.banner h1 {
+    padding-bottom: .3cm;
+    border-bottom: 8px solid #d52443;
+}
+
+#sec {
+    background: #bbbbbb26;
+    width: 100%;
+}
+
+/*FIM*/
+
+.container.main h3 {
+    margin-top: 1.3cm;
+    font-size: 18px;
+    margin-bottom: .7cm;
+}
+
+.container.main {
+    margin: auto;
+    padding-bottom: 40px;
+    line-height: 28px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+.container.main ul {
+    margin-top: .5cm;
+}
+
+.container.main li {
+    margin-bottom: 15px;
+}
+
+.container.main div {
+    margin: auto;
+    padding-left: 80px;
+}
+
+.container.main a {
+    color: #d52443;
+}
+
+@media (max-width: 576px) {
+    section {
+        height: 190px;
+    }
+
+    .container.main div {
+        width: 100%;
+        margin: auto;
+        padding: 0px 10px;
+    }
+
+    .container.main {
+        padding: 10px;
+        padding-bottom: 30px;
+    }
+
+    
+    .banner h1 {
+        /* padding-bottom: 0.3cm; */
+        border-bottom: 4px solid #d52443;
+        font-size: 20px;
+        margin-top: 20%;
+    }
+}

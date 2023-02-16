@@ -1,0 +1,28 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" routerLink="/home">THAIS BARCELLOS</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation" (click)="toggleMenu()">
+      <i [ngClass]="{'fa-bars':open, 'fa-times':!open}" class="fa"> </i>
+    </button>
+    <!--Desktop-->
+    <div class="navbar-desk" id="navbarNavAltMarkup" #menu>
+      <div class="navbar-nav">
+        <a class="nav-item nav-link" routerLink="/home">Main Page</a>
+        <a class="nav-item nav-link" routerLink="/education">Education</a>
+        <a class="nav-item nav-link" routerLink="/work">Work Experience</a>
+        <a class="nav-item nav-link" routerLink="/academic">Academic Publications</a>
+        <a class="nav-item nav-link" routerLink="/conferences">Conferences</a>
+        <a class="nav-item nav-link" routerLink="/skills">Skills</a>
+      </div>
+    </div>
+    <!--Mobile-->
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup" [ngClass]="{ 'show': toggleMenu }" *ngIf="isMenuOpen" #menu>
+      <div class="navbar-nav">
+        <a class="nav-item nav-link" routerLink="/home">Main Page</a>
+        <a class="nav-item nav-link" routerLink="/education">Education</a>
+        <a class="nav-item nav-link" routerLink="/work">Work Experience</a>
+        <a class="nav-item nav-link" routerLink="/academic">Academic Publications</a>
+        <a class="nav-item nav-link" routerLink="/conferences">Conferences</a>
+        <a class="nav-item nav-link" routerLink="/skills">Skills</a>
+      </div>
+    </div>
+</nav>

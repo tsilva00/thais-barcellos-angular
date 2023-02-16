@@ -1,1 +1,5 @@
 /* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.css";
+
+.floating { animation-name: floating; animation-duration: 1.5s; animation-iteration-count: infinite; animation-timing-function: ease-in-out; }
+@keyframes floating { 0% { transform: translate(0, 0px); } 50% { transform: translate(0, 3px); } 100% { transform: translate(0, 0px); } }

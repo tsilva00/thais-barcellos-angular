@@ -1,0 +1,128 @@
+/*loading*/
+.loading {
+    height: 100%;
+    position: fixed;
+    background: #ffffffa1;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    z-index: 999999;
+}
+
+/*Espaçamento da div com nome e descrição*/
+.banner {
+    background: url("../../assets/background.jpg");
+    padding-top: 110px;
+    height: auto;
+    background-size: cover;
+    display: grid;
+    background-attachment: fixed;
+    padding-bottom: 35px;
+}
+
+/*Definições do ícone por foto*/
+img.icon {
+    height: 28px;
+    margin-top: 8px;
+    margin-left: 4px;
+}
+
+/*Definições da navbar fixed*/
+nav.navbar.navbar-expand-lg.navbar-light.p-md-3.bg-light {
+    transition: background-color 100ms linear !important;
+}
+
+/*Definições da foto principal*/
+.img-cover {
+    width: 228px;
+    height: 340px;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    background: url("../../assets/Thais.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+    box-shadow: 1px 0px 8px 1px rgb(15 14 14);
+}
+
+
+#desc {
+    text-align: center;
+    margin-top: 10px;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-family: 'Oswald', sans-serif;
+}
+
+#desc p {
+    width: 85%;
+    margin: auto;
+    padding: 10px 0px;
+}
+
+#desc ul {
+    list-style: none;
+    display: inline-flex;
+}
+
+#desc i {
+    font-size: 25px;
+    margin: 10px;
+}
+
+/*Definições do conteúdo após o banner*/
+#content {
+    margin-top: .7cm;
+    margin-bottom: 1.5cm;
+}
+
+/*Definição de background dos ícones do Banner*/
+#desc a:hover {
+    background: transparent !important;
+}
+
+/*Definção da cor dos ícones do banner*/
+#desc ::before {
+    color: black;
+}
+
+.descricao {
+        padding: 20px 60px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 16px;
+}
+
+@media (max-width: 750px) {
+    .img-cover {
+        width: 173px;
+        height: 228px;
+        margin-bottom: 10px;
+        border-radius: 0px;
+    }
+    .banner {
+        margin-top: 0px;
+    }
+
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 0px;
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+
+    #desc {
+        margin-top: auto;
+    }
+
+    #content {
+        margin-top: .5cm;
+        text-align: center;
+    }
+
+    .descricao {
+        padding: 10px 20px;
+        margin-bottom: 80px;
+    }
+}
