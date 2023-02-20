@@ -1,23 +1,36 @@
 <div class="loading" *ngIf="!loaded">
-    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="margin: auto; display: block;" width="200px" height="200px" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid">
-        <g transform="translate(20 50)">
-        <circle cx="0" cy="0" r="6" fill="#ef858c">
-          <animateTransform attributeName="transform" type="scale" begin="-0.375s" calcMode="spline" keySplines="0.3 0 0.7 1;0.3 0 0.7 1" values="0;1;0" keyTimes="0;0.5;1" dur="1s" repeatCount="indefinite"></animateTransform>
-        </circle>
-        </g><g transform="translate(40 50)">
-        <circle cx="0" cy="0" r="6" fill="#e15b64">
-          <animateTransform attributeName="transform" type="scale" begin="-0.25s" calcMode="spline" keySplines="0.3 0 0.7 1;0.3 0 0.7 1" values="0;1;0" keyTimes="0;0.5;1" dur="1s" repeatCount="indefinite"></animateTransform>
-        </circle>
-        </g><g transform="translate(60 50)">
-        <circle cx="0" cy="0" r="6" fill="#de414b">
-          <animateTransform attributeName="transform" type="scale" begin="-0.125s" calcMode="spline" keySplines="0.3 0 0.7 1;0.3 0 0.7 1" values="0;1;0" keyTimes="0;0.5;1" dur="1s" repeatCount="indefinite"></animateTransform>
-        </circle>
-        </g><g transform="translate(80 50)">
-        <circle cx="0" cy="0" r="6" fill="#c70707">
-          <animateTransform attributeName="transform" type="scale" begin="0s" calcMode="spline" keySplines="0.3 0 0.7 1;0.3 0 0.7 1" values="0;1;0" keyTimes="0;0.5;1" dur="1s" repeatCount="indefinite"></animateTransform>
-        </circle>
-        </g>
-        </svg>
+  <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+    style="margin: auto; display: block;" width="200px" height="200px" viewBox="0 0 100 100"
+    preserveAspectRatio="xMidYMid">
+    <g transform="translate(20 50)">
+      <circle cx="0" cy="0" r="6" fill="#ef858c">
+        <animateTransform attributeName="transform" type="scale" begin="-0.375s" calcMode="spline"
+          keySplines="0.3 0 0.7 1;0.3 0 0.7 1" values="0;1;0" keyTimes="0;0.5;1" dur="1s" repeatCount="indefinite">
+        </animateTransform>
+      </circle>
+    </g>
+    <g transform="translate(40 50)">
+      <circle cx="0" cy="0" r="6" fill="#e15b64">
+        <animateTransform attributeName="transform" type="scale" begin="-0.25s" calcMode="spline"
+          keySplines="0.3 0 0.7 1;0.3 0 0.7 1" values="0;1;0" keyTimes="0;0.5;1" dur="1s" repeatCount="indefinite">
+        </animateTransform>
+      </circle>
+    </g>
+    <g transform="translate(60 50)">
+      <circle cx="0" cy="0" r="6" fill="#de414b">
+        <animateTransform attributeName="transform" type="scale" begin="-0.125s" calcMode="spline"
+          keySplines="0.3 0 0.7 1;0.3 0 0.7 1" values="0;1;0" keyTimes="0;0.5;1" dur="1s" repeatCount="indefinite">
+        </animateTransform>
+      </circle>
+    </g>
+    <g transform="translate(80 50)">
+      <circle cx="0" cy="0" r="6" fill="#c70707">
+        <animateTransform attributeName="transform" type="scale" begin="0s" calcMode="spline"
+          keySplines="0.3 0 0.7 1;0.3 0 0.7 1" values="0;1;0" keyTimes="0;0.5;1" dur="1s" repeatCount="indefinite">
+        </animateTransform>
+      </circle>
+    </g>
+  </svg>
 </div>
 
 <section>
@@ -34,99 +47,233 @@
 
 <div class="container main">
   <div class="row">
-      <div>
-          <h3>Computer</h3>
-          <p>
-              <span style="margin-right: 1cm;">Stata</span>
-              <i class="fas fa-circle" id="um"></i>
-              <i class="fas fa-circle" id="dois"></i>
-              <i class="fas fa-circle" id="tres"></i>
-              <i class="fas fa-circle" id="quatro"></i>
-              <i class="fas fa-circle" id="cinco"></i>
-          </p>
-          <p>
-              <span style="margin-right: .9cm;">LaTex</span>
-              <i class="fas fa-circle" id="um"></i>
-              <i class="fas fa-circle" id="dois"></i>
-              <i class="fas fa-circle" id="tres"></i>
-              <i class="fas fa-circle" id="quatro"></i>
-              <i class="far fa-circle" id="cinco"></i>
-          </p>
-          <p>
-              <span style="margin-right: .6cm;">Tableau</span>
-              <i class="fas fa-circle" id="um"></i>
-              <i class="fas fa-circle" id="dois"></i>
-              <i class="fas fa-circle" id="tres"></i>
-              <i class="far fa-circle" id="quatro"></i>
-              <i class="far fa-circle" id="cinco"></i>
-          </p>
-          <p>
-              <span style="margin-right: 1.3cm;">SQL</span>
-              <i class="fas fa-circle" id="um"></i>
-              <i class="fas fa-circle" id="dois"></i>
-              <i class="fas fa-circle" id="tres"></i>
-              <i class="far fa-circle" id="quatro"></i>
-              <i class="far fa-circle" id="cinco"></i>
-          </p>
-          <p>
-              <span style="margin-right: 1.8cm;">R</span>
-              <i class="fas fa-circle" id="um"></i>
-              <i class="fas fa-circle" id="dois"></i>
-              <i class="fas fa-circle" id="tres"></i>
-              <i class="far fa-circle" id="quatro"></i>
-              <i class="far fa-circle" id="cinco"></i>
-          </p>
-          <p>
-              <span style="margin-right: .7cm;">Python</span>
-              <i class="fas fa-circle" id="um"></i>
-              <i class="fas fa-circle" id="dois"></i>
-              <i class="fas fa-circle" id="tres"></i>
-              <i class="far fa-circle" id="quatro"></i>
-              <i class="far fa-circle" id="cinco"></i>
-          </p>
-          <p>
-              <span style="margin-right: 1.1cm;">SPSS</span>
-              <i class="fas fa-circle" id="um"></i>
-              <i class="fas fa-circle" id="dois"></i>
-              <i class="fas fa-circle" id="tres"></i>
-              <i class="far fa-circle" id="quatro"></i>
-              <i class="far fa-circle" id="cinco"></i>
-          </p>
-          <p>
-              <span style="margin-right: .8cm;">ArcGis</span>
-              <i class="fas fa-circle" id="um"></i>
-              <i class="fas fa-circle" id="dois"></i>
-              <i class="fas fa-circle" id="tres"></i>
-              <i class="far fa-circle" id="quatro"></i>
-              <i class="far fa-circle" id="cinco"></i>
-          </p>
-      </div>
-      <div style="margin-bottom: 1cm;">
-          <h3>Language</h3>
-          <p>
-              <span style="margin-right: .1cm;">Portuguese</span>
-              <i class="fas fa-circle" id="um"></i>
-              <i class="fas fa-circle" id="dois"></i>
-              <i class="fas fa-circle" id="tres"></i>
-              <i class="fas fa-circle" id="quatro"></i>
-              <i class="fas fa-circle" id="cinco"></i>
-          </p>
-          <p>
-              <span style="margin-right: .9cm;">English</span>
-              <i class="fas fa-circle" id="um"></i>
-              <i class="fas fa-circle" id="dois"></i>
-              <i class="fas fa-circle" id="tres"></i>
-              <i class="fas fa-circle" id="quatro"></i>
-              <i class="far fa-circle" id="cinco"></i>
-          </p>
-          <p>
-              <span style="margin-right: .8cm;">Spanish</span>
-              <i class="fas fa-circle" id="um"></i>
-              <i class="fas fa-circle" id="dois"></i>
-              <i class="fas fa-circle" id="tres"></i>
-              <i class="far fa-circle" id="quatro"></i>
-              <i class="far fa-circle" id="cinco"></i>
-          </p>
-      </div>
+    <div>
+      <h3>Computer</h3>
+      <p>
+        <span style="margin-right: 1cm;">Stata</span>
+        <svg height="21" width="21">
+          <circle cx="10" cy="10" r="8" stroke-width="3" fill="#f9dfe3" />
+        </svg>
+        <svg height="21" width="21">
+          <circle cx="10" cy="10" r="8" stroke-width="3" fill="#f2bbc4" />
+        </svg>
+        <!--três-->
+        <svg height="21" width="21">
+          <circle cx="10" cy="10" r="8" stroke-width="3" fill="#eb97a5" />
+        </svg>
+        <!--quatro-->
+        <svg height="21" width="21">
+          <circle cx="10" cy="10" r="8" stroke-width="3" fill="#e26d81" />
+        </svg>
+        <!--cinco-->
+        <svg height="21" width="21">
+          <circle cx="10" cy="10" r="8" stroke-width="3" fill="#d52443" />
+        </svg>
+      </p>
+      <p>
+        <span style="margin-right: .9cm;">LaTex</span>
+        <svg height="21" width="21">
+          <circle cx="10" cy="10" r="8" stroke-width="3" fill="#f9dfe3" />
+        </svg>
+        <svg height="21" width="21">
+          <circle cx="10" cy="10" r="8" stroke-width="3" fill="#f2bbc4" />
+        </svg>
+        <!--três-->
+        <svg height="21" width="21">
+          <circle cx="10" cy="10" r="8" stroke-width="3" fill="#eb97a5" />
+        </svg>
+        <!--quatro-->
+        <svg height="21" width="21">
+          <circle cx="10" cy="10" r="8" stroke-width="3" fill="#e26d81" />
+        </svg>
+        <!--cinco-->
+        <svg height="21" width="21">
+          <circle cx="10" cy="10" r="8" stroke-width="3" fill="#d52443" />
+        </svg>
+      </p>
+      <p>
+        <span style="margin-right: .6cm;">Tableau</span>
+        <svg height="21" width="21">
+          <circle cx="10" cy="10" r="8" stroke-width="3" fill="#f9dfe3" />
+        </svg>
+        <svg height="21" width="21">
+          <circle cx="10" cy="10" r="8" stroke-width="3" fill="#f2bbc4" />
+        </svg>
+        <!--três-->
+        <svg height="21" width="21">
+          <circle cx="10" cy="10" r="8" stroke-width="3" fill="#eb97a5" />
+        </svg>
+        <!--quatro-->
+        <svg height="21" width="21">
+          <circle cx="10" cy="10" r="8" stroke-width="3" fill="#e26d81" />
+        </svg>
+        <!--cinco-->
+        <svg height="21" width="21">
+          <circle cx="10" cy="10" r="8" stroke-width="3" fill="#d52443" />
+        </svg>
+      </p>
+      <p>
+        <span style="margin-right: 1.3cm;">SQL</span>
+        <svg height="21" width="21">
+          <circle cx="10" cy="10" r="8" stroke-width="3" fill="#f9dfe3" />
+        </svg>
+        <svg height="21" width="21">
+          <circle cx="10" cy="10" r="8" stroke-width="3" fill="#f2bbc4" />
+        </svg>
+        <!--três-->
+        <svg height="21" width="21">
+          <circle cx="10" cy="10" r="8" stroke-width="3" fill="#eb97a5" />
+        </svg>
+        <!--quatro-->
+        <svg height="21" width="21">
+          <circle cx="10" cy="10" r="8" stroke-width="3" fill="#e26d81" />
+        </svg>
+        <!--cinco-->
+        <svg height="21" width="21">
+          <circle cx="10" cy="10" r="8" stroke-width="3" fill="#d52443" />
+        </svg>
+      </p>
+      <p>
+        <span style="margin-right: 1.8cm;">R</span>
+        <svg height="21" width="21">
+          <circle cx="10" cy="10" r="8" stroke-width="3" fill="#f9dfe3" />
+        </svg>
+        <svg height="21" width="21">
+          <circle cx="10" cy="10" r="8" stroke-width="3" fill="#f2bbc4" />
+        </svg>
+        <!--três-->
+        <svg height="21" width="21">
+          <circle cx="10" cy="10" r="8" stroke-width="3" fill="#eb97a5" />
+        </svg>
+        <!--quatro-->
+        <svg height="21" width="21">
+          <circle cx="10" cy="10" r="8" stroke-width="3" fill="#e26d81" />
+        </svg>
+        <!--cinco-->
+        <svg height="21" width="21">
+          <circle cx="10" cy="10" r="8" stroke-width="3" fill="#d52443" />
+        </svg>
+      </p>
+      <p>
+        <span style="margin-right: .7cm;">Python</span>
+        <svg height="21" width="21">
+          <circle cx="10" cy="10" r="8" stroke-width="3" fill="#f9dfe3" />
+        </svg>
+        <svg height="21" width="21">
+          <circle cx="10" cy="10" r="8" stroke-width="3" fill="#f2bbc4" />
+        </svg>
+        <!--três-->
+        <svg height="21" width="21">
+          <circle cx="10" cy="10" r="8" stroke-width="3" fill="#eb97a5" />
+        </svg>
+        <!--quatro-->
+        <svg height="21" width="21">
+          <circle cx="10" cy="10" r="8" stroke-width="3" fill="#e26d81" />
+        </svg>
+        <!--cinco-->
+        <svg height="21" width="21">
+          <circle cx="10" cy="10" r="8" stroke-width="3" fill="#d52443" />
+        </svg>
+      </p>
+      <p>
+        <span style="margin-right: 1.1cm;">SPSS</span>
+        <svg height="21" width="21">
+          <circle cx="10" cy="10" r="8" stroke-width="3" fill="#f9dfe3" />
+        </svg>
+        <svg height="21" width="21">
+          <circle cx="10" cy="10" r="8" stroke-width="3" fill="#f2bbc4" />
+        </svg>
+        <!--três-->
+        <svg height="21" width="21">
+          <circle cx="10" cy="10" r="8" stroke-width="3" fill="#eb97a5" />
+        </svg>
+        <!--quatro-->
+        <svg height="21" width="21">
+          <circle cx="10" cy="10" r="8" stroke-width="3" fill="#e26d81" />
+        </svg>
+        <!--cinco-->
+        <svg height="21" width="21">
+          <circle cx="10" cy="10" r="8" stroke-width="3" fill="#d52443" />
+        </svg>
+      </p>
+      <p>
+        <span style="margin-right: .8cm;">ArcGis</span>
+        <svg height="21" width="21">
+          <circle cx="10" cy="10" r="8" stroke-width="3" fill="#f9dfe3" />
+        </svg>
+        <svg height="21" width="21">
+          <circle cx="10" cy="10" r="8" stroke-width="3" fill="#f2bbc4" />
+        </svg>
+        <!--três-->
+        <svg height="21" width="21">
+          <circle cx="10" cy="10" r="8" stroke-width="3" fill="#eb97a5" />
+        </svg>
+        <!--quatro-->
+        <svg height="21" width="21">
+          <circle cx="10" cy="10" r="8" stroke-width="3" fill="#e26d81" />
+        </svg>
+        <!--cinco-->
+        <svg height="21" width="21">
+          <circle cx="10" cy="10" r="8" stroke-width="3" fill="#d52443" />
+        </svg>
+      </p>
+    </div>
+    <div style="margin-bottom: 1cm;">
+      <h3>Language</h3>
+      <p>
+        <span style="margin-right: .1cm;">Portuguese</span>
+        <svg height="21" width="21">
+          <circle cx="10" cy="10" r="8" stroke-width="3" fill="#f9dfe3" />
+        </svg>
+        <svg height="21" width="21">
+          <circle cx="10" cy="10" r="8" stroke-width="3" fill="#f2bbc4" />
+        </svg>
+        <!--três-->
+        <svg height="21" width="21">
+          <circle cx="10" cy="10" r="8" stroke-width="3" fill="#eb97a5" />
+        </svg>
+        <i class="fas fa-circle" id="quatro"></i>
+        <i class="fas fa-circle" id="cinco"></i>
+      </p>
+      <p>
+        <span style="margin-right: .9cm;">English</span>
+        <svg height="21" width="21">
+          <circle cx="10" cy="10" r="8" stroke-width="3" fill="#f9dfe3" />
+        </svg>
+        <svg height="21" width="21">
+          <circle cx="10" cy="10" r="8" stroke-width="3" fill="#f2bbc4" />
+        </svg>
+        <!--três-->
+        <svg height="21" width="21">
+          <circle cx="10" cy="10" r="8" stroke-width="3" fill="#eb97a5" />
+        </svg>
+        <i class="fas fa-circle" id="quatro"></i>
+        <!--cinco-->
+        <svg height="21" width="21">
+          <circle cx="10" cy="10" r="8" stroke-width="3" fill="#d52443" />
+        </svg>
+      </p>
+      <p>
+        <span style="margin-right: .8cm;">Spanish</span>
+        <svg height="21" width="21">
+          <circle cx="10" cy="10" r="8" stroke-width="3" fill="#f9dfe3" />
+        </svg>
+        <svg height="21" width="21">
+          <circle cx="10" cy="10" r="8" stroke-width="3" fill="#f2bbc4" />
+        </svg>
+        <!--três-->
+        <svg height="21" width="21">
+          <circle cx="10" cy="10" r="8" stroke-width="3" fill="#eb97a5" />
+        </svg>
+        <!--quatro-->
+        <svg height="21" width="21">
+          <circle cx="10" cy="10" r="8" stroke-width="3" fill="#e26d81" />
+        </svg>
+        <!--cinco-->
+        <svg height="21" width="21">
+          <circle cx="10" cy="10" r="8" stroke-width="3" fill="#d52443" />
+        </svg>
+      </p>
+    </div>
   </div>
 </div>

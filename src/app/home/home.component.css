@@ -93,6 +93,12 @@ nav.navbar.navbar-expand-lg.navbar-light.p-md-3.bg-light {
         font-size: 16px;
 }
 
+svg {
+    width: 25px;
+    height: 25px;
+    margin: 9px 0px 0px 4px;
+}
+
 @media (max-width: 750px) {
     .img-cover {
         width: 173px;

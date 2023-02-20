@@ -11,6 +11,7 @@ import { WorkComponent } from './work/work.component';
 import { AcademicComponent } from './academic/academic.component';
 import { ConferencesComponent } from './conferences/conferences.component';
 import { SkillsComponent } from './skills/skills.component';
+import { HashLocationStrategy, LocationStrategy } from '@angular/common';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,7 @@ import { SkillsComponent } from './skills/skills.component';
     BrowserModule,
     AppRoutingModule,
   ],
-  providers: [],
-  bootstrap: [AppComponent]
+  providers: [{provide : LocationStrategy , useClass: HashLocationStrategy}],
+  bootstrap: [AppComponent],
 })
 export class AppModule { }
