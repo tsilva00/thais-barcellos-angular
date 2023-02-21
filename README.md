@@ -1,5 +1,6 @@
-# ThaisBarcellos
-
+# ThaisBarcellos 
+<a href="https://thaisbarcellos.com/" target="_blank">CLICK HERE TO CHECK THE WEBSITE</a><br>
+<li>Simple portfolio according to what the client asked for. </li>
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.9.
 
 ## Development server
